@@ -1,0 +1,19 @@
+{
+    "name": "hoseinsatari/cms",
+    "description": "this package about a cms and only for test",
+    "authors": [
+        {
+            "name": "hosseinsattari",
+            "email": "ho3einsss84@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hitler\\Cms\\" : "src/",
+            "َApp\\" : "src/app/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~7"
+    }
+}
